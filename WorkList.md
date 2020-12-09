@@ -1,8 +1,39 @@
-# Fri, 4/12/2020
 
-- Vấn đề: 
-+ không connect được vào kafka từ Structured Streaming trên Pycharm
-+ đã connect được vào kafka từ Structured Streaming trên pyspark (chú ý phiên bản package: --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.2.0 và phiên bản spark 2.4.7). Tuy nhiên, dùng pyspark thì không biết hiển thị dữ liệu treaming như thế nào
+# Wed, 9/12/2020
+ + dzone.com
+ + read write config files in python
+ + "migrate" term --> if you migrate your server to a new host
+ + lấy slide đẹp trên https://slidesgo.com/theme/long-distance-christmas-calls
+ + 5 greate data engineering online course
+ + stop all queries in spark.streams.active: [q.stop() for q in spark.streams.active]
+ + `Cannot start query with id 455a4ffd-cbce-403d-be1d-ba3e501fb16f as another query with same id is already active. Perhaps you are attempting to restart a query from checkpoint that is already active.` 
+ + hackathon: cuộc thi lập trình
+ + hackerank.com: trang web luyện tập, xếp hạng lập trình.
+ + wordcount with DataFrame: df = spark.read.text(path) --> df.select(F.explode(F.split(F.col('value'), ' ')).alias('word')).groupBy('word').count().orderBy('count', accending=False).
+ + tham khảo sentiment analysis with tweeter tại: https://github.com/kaantas/spark-twitter-sentiment-analysis
+ + elasticsearch: https://topdev.vn/blog/elasticsearch-la-gi/: Người ta cũng có thể dùng ES là DB chính nhưng thường không ai làm thế vì cái gì cũng có nhiệm vụ riêng biệt của nó. ES không mạnh trong các thao tác CRUD, nên thường sẽ dùng song song với 1 DB chính (SQL, MySQL, MongoDB …).
+ --> ES có cơ chế đặc trưng để xử lý tìm kiếm text (ví dụ: tìm kiếm từ, tìm kiếm không dấu)
+ + tìm kiếm mờ (fuzzy), tức là từ khóa tìm kiếm có thể bị sai lỗi chính tả hay không đúng cú pháp thì vẫn có khả năng elasticsearch trả về kết quả tốt
+
+
+ + Apache Lucene: Lucene là phần mềm mã nguồn mở, dùng để phân tích, đánh chỉ mục và tìm kiếm thông tin với hiệu suất cao bằng Java. Lucene được phát triển đầu tiên bởi Doug Cutting được giới thiệu đầu tiên vào tháng 8 năm 2000. Tháng 9 năm 2001 Lucene gia nhập vào tổ chức Apache và hiện tại được Apache phát triển và quản lý: https://kipalog.kaopiz.com/posts/Lucene
+ + Spark Streaming vs Structured Streaming
+
+# Tue, 8/12/2020
++ install kibana, elasticsearch used docker
++ why docker eates too much space on disk: https://cntnr.io/whats-eating-my-disk-docker-system-commands-explained-d778178f96f1
++ run pyspark by pointing to SPARK_HOME (without install package `pyspark` additionally): --> import findspark/findspark.init()/import pyspark --> (set $SPARK_HOME in .bashrc file)
+ --> `error`: *Error: Missing application resource.*,
+ 			  *Exception: Java gateway process exited before sending its port number* ===> Used scala 11 instead of 12 and used pyspark --packages ...
++  In short, Structured Streaming provides fast, scalable, fault-tolerant, end-to-end exactly-once stream processing without the user having to reason about streaming.
++ github.com/trending - collections - topics, githubuniverse.com
++ socket, Netcat( nc -lk 9999)
++ explode in DataFrame
++ Structured tSreaming: The key idea in Structured Streaming is to treat a live data stream as a table that is being continuously appended.
++ postman
++ rdd.pprint()
+
+
 
 # Mon, 7/12/2020
 
@@ -34,3 +65,10 @@
 	2. https://pymi.vn/blog/virtualenv/#:~:text=virtualenv%20l%C3%A0%20m%E1%BB%99t%20ph%E1%BA%A7n%20m%E1%BB%81m,c%C3%A0i%20v%C3%A0o%20th%C6%B0%20m%E1%BB%A5c%20n%C3%A0y.
 	--> pip show ipython -> thông tin
 	3. https://etuannv.com/huong-dan-su-dung-moi-truong-ao-virtual-environments-trong-python/
+
+
+# Fri, 4/12/2020
+
+- Vấn đề: 
++ không connect được vào kafka từ Structured Streaming trên Pycharm
++ đã connect được vào kafka từ Structured Streaming trên pyspark (chú ý phiên bản package: --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.2.0 và phiên bản spark 2.4.7). Tuy nhiên, dùng pyspark thì không biết hiển thị dữ liệu treaming như thế nào
