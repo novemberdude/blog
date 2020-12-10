@@ -1,3 +1,19 @@
+# Thu, 10/12/2020
++ pip install -r requirements.txt
++ pip install -e
++ cx_Oracle is a Python extension module that enables access to Oracle Database. It conforms to the Python database API 2.0 specification with a considerable number of additions and a couple of exclusions. (customer experience)
++ from pprint import pprint --> in những dữ liệu có cấu trúc một cách dễ đọc (preaty print - có lùi dòng, xuống dòng hợp lý thay vì in trên một dòng như print())
++ The coloredlogs package enables colored terminal output for Python’s logging module.
++ lxml is a Pythonic, mature binding for the libxml2 and libxslt libraries. It provides safe and convenient access to these libraries using the ElementTree API.
++ MinIO Python SDK is Simple Storage Service (aka S3) client to perform bucket and object operations to any Amazon S3 compatible object storage service
++ The Python Imaging Library adds image processing capabilities to your Python interpreter.
++ ProxyBroker is an open source tool that asynchronously finds public proxies from multiple sources and concurrently checks them.
++ proxy
++ reputa
++ exactly one, checkpointing in spark structured streaming.
++ thread
++ import logging --> https://realpython.com/python-logging/
++ thread in python: https://realpython.com/intro-to-python-threading/
 
 # Wed, 9/12/2020
  + dzone.com
