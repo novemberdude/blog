@@ -1,3 +1,5 @@
+# Fri, 11/12/2020
++ python format string: https://realpython.com/python-f-strings/
 # Thu, 10/12/2020
 + pip install -r requirements.txt
 + pip install -e
@@ -14,6 +16,18 @@
 + thread
 + import logging --> https://realpython.com/python-logging/
 + thread in python: https://realpython.com/intro-to-python-threading/
++ Oracle SQL Developer Oracle SQL Developer is a free graphical tool that enhances productivity and simplifies database development tasks. Using SQL Developer, users can browse database objects, run SQL statements, edit and debug PL/SQL statements and run reports, whether provided or created.
++ devops
++ where ROWNUM <= *rownum*
++ Ngữ pháp SQL (ngữ pháp tiêu chuẩn cho mọi db) vs Ngữ pháp SQL riêng của Oracle: https://o7planning.org/vi/10231/huong-dan-hoc-sql-cho-nguoi-moi-bat-dau-voi-oracle
++ random.uniform(): https://www.geeksforgeeks.org/python-number-uniform-method/ Returns the generated floating point random number between lower limit and upper limit
++ Tại sao lại là thứ 2 mà không phải là thứ một: --> tên thứ 2 bắt nguồn từ Bồ Đào Nha, tạo cảm giác bớt ngại khi bắt đầu một tuần mới (thứ 2 rồi, không phải thứ 1 đâu)
++ time.time() --> tổng số giây kể từ time.gmtime(0): timestamp, UNIX epoch time. https://www.datacamp.com/community/tutorials/python-time-sleep
++ time.ctime(): local time in a nicely formatted version (instead of second or ticks)
++ time.sleep(): takes as arguments the number of seconds you want the program to halt or to be suspended before it moves forward to the next step
++ cursor.close(), con.close() sau mỗi function truy vấn: Just don't keep an open connection while you do other lengthy non-db work. Close it and re-open it; you may actually get the same underlying connection back, but somebody else (another thread) might have made use of it while you weren't.
++ telegram bot: https://blog.cloud365.vn/linux/tao-canh-bao-su-dung-telegram-python/
++ random.shuffle() --> trộn một list
 
 # Wed, 9/12/2020
  + dzone.com
