@@ -1,5 +1,19 @@
+# Mon, 14/12/2020
++ random.sample(population, k) ->Return a k length list of unique elements chosen from the population sequence or set. Used for random sampling without replacement.
++ `re` package in python --> re — Regular expression operations
++ from datetime import datetime, timedelta --> datetime.now() + timedelta(hours=7) (timedelta độ dời)
++ (datetime.datetime) a_time.strftime("%Y/%m/%d %H:%M:%S") --> return a string
++ Shadows name 'posts' from outer scope  --> should avoid to prevent potential unexpected error (vd, dùng global variable instead of local variable)
++ token fb: https://j2teamnnl.blogspot.com/2019/01/token-facebook-la-gi-va-cach-bao-mat-no.html
++ không đăng xuất tài khoản trong thời gian dài --> dùng token à???
++ Vụ bê bối dữ liệu Facebook–Cambridge Analytica -  87 triệu người sử dụng Facebook
++ titok api
++ seminar
++ sdk vs api
+
 # Fri, 11/12/2020
 + python format string: https://realpython.com/python-f-strings/
+
 # Thu, 10/12/2020
 + pip install -r requirements.txt
 + pip install -e
