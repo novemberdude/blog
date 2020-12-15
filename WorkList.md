@@ -1,3 +1,24 @@
+# Tue, 15/12/2020
++ proxy
++ MIT licience
++ selenium vs scrapy
++ Captcha: Completely Automated Public Turing test to tell Computers and Humans Apart
++ $HOME/.cache folder: có thể xóa, ứng dụng cần thì sẽ tạo lại. --> khi pip install package trong venv, package sẽ lấy từ $HOME/.cache, nếu không sẽ install vào .cache rồi copy vào venv https://askubuntu.com/questions/102046/is-it-okay-to-delete-the-cache-folder
++ userAgent:  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/86.0.4240.111 Safari/537.36"
+    --> Trong máy tính, user agent là phần mềm hoạt động thay mặt cho người dùng. Một sử dụng phổ thông của từ này đề cập đến một trình duyệt web cho một trang web biết thông tin về trình duyệt và hệ điều hành
++ https://www.whatismybrowser.com/, https://blog.cloud365.vn/linux/tong-quan-ve-user-agent/
+Tới thời điểm hiện tại, các trình duyệt đều phát triển để giống một trình duyệt khác (Mozilla), dần dần chuỗi User Agent trở nên lộn xộn gây khó hiểu nhầm lẫn
++ cookie: Cookie đơn giản chỉ là một đoạn văn bản ghi thông tin được tạo ra và lưu trên trình duyệt của máy người dùng, https://nguyenthanhthuong.com/huong-dan-su-dung-cookies/
++ j2team cookie: https://www.junookyo.com/2017/07/j2team-cookies-chrome-extension.html?utm_source=extension&utm_medium=j2team_cookies: chia sẻ tài khoản mà không sợ lộ mật khẩu
++ https://medium.com/@david.teather
++ put an open source python package to PyPi: https://realpython.com/pypi-publish-python-package/
+
+
+
+
+
 # Mon, 14/12/2020
 + random.sample(population, k) ->Return a k length list of unique elements chosen from the population sequence or set. Used for random sampling without replacement.
 + `re` package in python --> re — Regular expression operations
@@ -9,7 +30,11 @@
 + Vụ bê bối dữ liệu Facebook–Cambridge Analytica -  87 triệu người sử dụng Facebook
 + titok api
 + seminar
-+ sdk vs api
++ sdk vs api https://rapidapi.com/blog/api-vs-sdk/
++ ffmpeg: là một dự án phần mềm mã nguồn mở và miễn phí, bao gồm một bộ thư viện lớn và chương trình để xử lý video, âm thanh cũng như các tệp và luồng đa phương tiện (à một phần mềm xử lý audio, video đơn giản, miễn phí và hiệu quả.) -  Fast Forward MPEG (Motion Picture Experts Group)
++ ??? cookies trong crawl fb là gì
++ import sys/ sys.argv[0] là file python: --> sys.argv là môt danh sách [list] trong python, nó được sư dụng khi bạn chạy một lệnh command-line nào đó trên hệ thống. Và argument này được đẩy vào script python để thực thi khi chạy câu lệnh.
+
 
 # Fri, 11/12/2020
 + python format string: https://realpython.com/python-f-strings/
