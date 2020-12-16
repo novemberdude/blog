@@ -11,4 +11,9 @@
 ??? khi crawl có cần fake ip không? https://www.youtube.com/watch?v=Ozj6ypE9aR0
 
 + selenium vs scrapy: https://hackernoon.com/scrapy-or-selenium-c3efa9df2c06
-+ 	Selenium is a free automated testing suite for web applications across different browsers and platforms. Although it was created for automated testing on web app, it is really easy to apply to scrape websites!
++ Selenium is a free automated testing suite for web applications across different browsers and platforms. Although it was created for automated testing on web app, it is really easy to apply to scrape websites!
++ tiktoks.netlify.app - a website crawldata from tiktok
++ crawl like có phải update k
+
+# Problem
+1. crawl data by username: can get data through a real browser but not in get method: https://forum.freecodecamp.org/t/need-advice-regarding-tiktok-api/380030

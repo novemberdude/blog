@@ -1,3 +1,54 @@
+# Wed, 16/12/2020
++ fb crawl: crawl ntn, theo user? theo location? mỗi user có crawl bài đăng của bạn bè không, có crawl bài đăng của bạn bè của bạn bè không (recursive?)
++ tiktok-api python package by davidteather (github): --> crawl dữ liệu khá đầy đủ, tuy nhiên cần tìm hiểu kĩ công nghệ 
++ medium.com là gì? là một blog cộng đồng, một nền tảng lớn và đáng tin cậy, chất lượng, không hoàn toàn miễn phí (sau khi đọc nhiêu bài được đánh giá cao, nếu muốn đọc tiếp thì phải đăng ký gói tháng, nếu không muốn thì đăng xuất tài khoản ra, đăng kí với tài khoản với :d hoặc dùng extension): 
+	https://sharengay.commeo-doc-medium-com-free-khi-bi-yeu-cau-dang-ky-membership/
++ WebDriver là một công cụ mã nguồn mở trong mảng test tự động, cho phép các ứng dụng web của chúng ta có thể hoạt động trên các trình duyệt. Nó cung cấp các chức năng giúp chúng ta đi đến các địa chỉ web, nhập dữ liệu đầu vào, xử lý các code JavaScript, và rất nhiều các thao tác mà người dùng họ có thể tác động khác nữa. Và ChromeDriver là chính là công cụ giúp WebDriver thực hiện các công việc đó trên trình duyệt Chrome. https://vananhtooo.wordpress.com/2017/10/05/selenium-khoi-dong-trinh-duyet-chrome-voi-chromedriver/ 
++ ??? tại sao dùng selenium để crawl fb mà không dùng scrapy
++ code android: Java là ngôn ngữ chính thức để phát triển Android. Đây là ngôn ngữ có sự hỗ trợ nhiều nhất từ ​​Google
++ Selenium Webdriver (Se driver) là một tool open source giúp việc thực thi các hành động lên trang web một cách tự động, tất nhiên là tùy vào mục đích và yêu cầu của người viết. 
++ Even though Scapy is a powerfl web scraping framework, i becomes useless with these dynamic websites.
++ Yandex là một công ty web của Nga với hơn 60% người dùng web ở Nga sử dụng. Yandex là công ty tìm kiếm lớn thứ 4 trên thế giới với hơn 150 triệu lượt tìm kiếm mỗi ngày và khoảng 50 triệu người dùng thường xuyên
++ Search Engine Optimization - Tối ưu hóa công cụ tìm kiếm (SEO) là quá trình tăng chất lượng và lưu lượng truy cập website bằng cách tăng khả năng hiển thị của website hoặc webpage [1] cho người dùng trên các máy truy tìm dữ liệu như Google, Bing, Yahoo
++ What will happen if I don't follow robots.txt while crawling? https://softwareengineering.stackexchange.com/questions/180108/what-will-happen-if-i-dont-follow-robots-txt-while-crawling#:~:text=The%20Robot%20Exclusion%20Standard%20is,you%20choose%20to%20ignore%20it.
++ Playwright is a Python library to automate Chromium, Firefox and WebKit browsers with a single API. Playwright delivers automation that is ever-green, capable, reliable and fast
++ proxy in TikTokApi
++ freecodecamp.org
++ cần xem hình dáng cookie như thế nào?
++ datatype clob in oracle: Stands for "Character Large Object." A CLOB is a data type used by various database management systems, including Oracle and DB2. It stores large amounts of character data, up to 4 GB in size.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Tue, 15/12/2020
 + proxy
 + MIT licience
