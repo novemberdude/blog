@@ -1,3 +1,64 @@
+# Thus, 17/12/2020
++ Create an icon for .sh file https://www.youtube.com/watch?v=daadsaHhXB8
++ pycharm warnings "method maybe static"
++ @staticmethod decorator in python ???
++ Cronjob là các lệnh thực thi hành động đặt trước vào thời điểm nhất định. Crontab là nơi lưu trữ các cronjob. Cron là một tiện ích giúp lập lịch chạy những dòng lệnh bên phía server để thực thi một hoặc nhiều công việc nào đó theo thời gian được lập sẵn. Một số người gọi những công việc đó là Cron job hoặc Cron task.Cron là một chương trình deamon, tức là nó được chạy ngầm mãi mãi một khi nó được khởi động lên. Như các deamon khác thì bạn cần khởi động lại nó nếu như có thay đổi thiết lập gì đó. Chương trình này nhìn vào file thiết lập có tên là crontab để thực thi những task được mô tả ở bên trong. https://vinahost.vn/crontab-linux-la-gi
++ `config` python package
++ https://viblo.asia/p/nhung-thu-ban-nen-biet-ve-http-gGJ59eJa5X2 Công nghệ cốt lõi là HTTP - Hypertext Transfer Protocol. Nó là phương thức giao tiếp bạn sử dụng khi bạn lướt web.
++ https://quantrimang.com/cac-truong-header-trong-http-156082
++ https://breadcrumbscollector.tech/stop-naming-your-python-modules-utils/ Stop naming your python modules “utils”, Synonyms of utils, like helpers, commons, etc. are bad for the same reason.
++ from ..monitor.monitor import alert
++ import sys, sys.version
++ import glob: The glob module finds all the pathnames matching a specified pattern according to the rules used by the Unix shell, although results are returned in arbitrary order
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Wed, 16/12/2020
 + fb crawl: crawl ntn, theo user? theo location? mỗi user có crawl bài đăng của bạn bè không, có crawl bài đăng của bạn bè của bạn bè không (recursive?)
 + tiktok-api python package by davidteather (github): --> crawl dữ liệu khá đầy đủ, tuy nhiên cần tìm hiểu kĩ công nghệ 
@@ -16,36 +77,6 @@
 + freecodecamp.org
 + cần xem hình dáng cookie như thế nào?
 + datatype clob in oracle: Stands for "Character Large Object." A CLOB is a data type used by various database management systems, including Oracle and DB2. It stores large amounts of character data, up to 4 GB in size.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
