@@ -1,3 +1,58 @@
+# Fri, 18/12/2020
++ Headless browser: Trình duyệt không có đầu là trình duyệt web không có giao diện người dùng đồ họa. Các trình duyệt không có đầu cung cấp khả năng kiểm soát tự động một trang web trong môi trường tương tự như các trình duyệt web phổ biến, nhưng chúng được thực thi thông qua giao diện dòng lệnh hoặc sử dụng giao tiếp mạng.
++ token vs cookie: https://dzone.com/articles/cookies-vs-tokens-the-definitive-guide
++ JWTs: JSON Web Tokens
++ cookie của chrome lưu trong sqllite3 database ở thư mục `~/.config/google-chrome/default.`
++ transfering cookie: https://superuser.com/questions/186609/how-do-i-transfer-copy-cookies-from-one-browser-to-another-or-same-browser-fro?rq=1
++ `getopt` python package: The getopt module is the old-school command line option parser that supports the conventions established by the Unix function getopt(). It parses an argument sequence, such as sys. argv and returns a sequence of (option, argument) pairs and a sequence of non-option arguments
++ `async` keyword in python: https://realpython.com/async-io-python/
++ Concurrency is a slightly broader term than parallelism. It suggests that multiple tasks have the ability to run in an overlapping manner. (There’s a saying that concurrency does not imply parallelism.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Thus, 17/12/2020
 + Create an icon for .sh file https://www.youtube.com/watch?v=daadsaHhXB8
 + pycharm warnings "method maybe static"
@@ -10,53 +65,7 @@
 + from ..monitor.monitor import alert
 + import sys, sys.version
 + import glob: The glob module finds all the pathnames matching a specified pattern according to the rules used by the Unix shell, although results are returned in arbitrary order
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
++ chứng chỉ oracle OCA, OCB.
 
 
 # Wed, 16/12/2020

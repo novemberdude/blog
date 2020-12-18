@@ -17,3 +17,17 @@
 
 # Problem
 1. crawl data by username: can get data through a real browser but not in get method: https://forum.freecodecamp.org/t/need-advice-regarding-tiktok-api/380030
+
+
+
+
+# Thiết kế source code idg_baochi
+
+## package idg_baochi.crawl_fb
+
+### sel_react_comment_page.py
+
+
+# Comment code:
+ + dùng context manager cho connect database
+ + format logging
