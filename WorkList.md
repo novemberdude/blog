@@ -1,3 +1,52 @@
+# Mon, 21/12/2020
++ Can't block by MAC address because MAC address (Media Access Control) is not included in HTTP headers: https://security.stackexchange.com/questions/1118/can-i-block-based-on-mac-address#:~:text=5%20Answers&text=In%20short%2C%20the%20answer%20is,could%2C%20it%20would%20be%20useless.&text=As%20you%20can%20see%2C%20the,which%20router%20it%20came%20from.
++ how to block an ip from accessing your service: https://mediatemple.net/community/products/dv/204405044/block-a-specific-ip-address-from-accessing-your-website
++ 10 tips to void getting blocked when scraping websites. https://www.codementor.io/@scrapingdog/10-tips-to-avoid-getting-blocked-while-scraping-websites-16papipe62
+	--> you must have a pool of at least 10 IPs before making an HTTP request. To avoid getting blocked you can use proxy rotating services like Scrapingdog or any other Proxy services.
++ https://blog.iconosquare.com/best-time-to-post-on-tiktok/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------
 # Fri, 18/12/2020
 + Headless browser: Trình duyệt không có đầu là trình duyệt web không có giao diện người dùng đồ họa. Các trình duyệt không có đầu cung cấp khả năng kiểm soát tự động một trang web trong môi trường tương tự như các trình duyệt web phổ biến, nhưng chúng được thực thi thông qua giao diện dòng lệnh hoặc sử dụng giao tiếp mạng.
 + token vs cookie: https://dzone.com/articles/cookies-vs-tokens-the-definitive-guide
@@ -7,50 +56,6 @@
 + `getopt` python package: The getopt module is the old-school command line option parser that supports the conventions established by the Unix function getopt(). It parses an argument sequence, such as sys. argv and returns a sequence of (option, argument) pairs and a sequence of non-option arguments
 + `async` keyword in python: https://realpython.com/async-io-python/
 + Concurrency is a slightly broader term than parallelism. It suggests that multiple tasks have the ability to run in an overlapping manner. (There’s a saying that concurrency does not imply parallelism.)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Thus, 17/12/2020
