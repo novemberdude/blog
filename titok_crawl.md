@@ -17,7 +17,7 @@
 
 # Problem
 1. crawl data by username: can get data through a real browser but not in get method: https://forum.freecodecamp.org/t/need-advice-regarding-tiktok-api/380030
-
+2. {"statusCode":10102,"statusMsg":"not login"} --> returned when send request to get user info without login.
 
 
 
