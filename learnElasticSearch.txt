@@ -1,0 +1,53 @@
+GET /_cat/health?v --> trạng thái hiện tại của ES: (tham số `v` để kết quả trả về hiển thị thêm tên cột, `pretty` để kết quả dễ đọc)
+GET /_cat/indices?pretty --> ds index
+Get /product/_doc/*id*?pretty --> đọc một document
+
+GET _search
+{
+  "query": {	
+    "match_all": {}
+  }
+}
+
+GET /product/_search				--> lấy toàn bộ document(mặc định lấy 10)
+{
+	"query": {"match_all": {}},
+	"_source": ["field1", "field2"],
+	"sort": [
+		{
+			"balance": {
+				"order": "desc"
+			}
+		}
+	],
+	"size": 100, 	
+	"from": 5
+}
+
+*** {"match": {"field1": "value1"}} --> giống where (phù hợp, không cần giống 100%, ví dụ có một trong 2 từ, kết quả trả về được sắp xếp theo _score giảm dần)
+
+*** {"bool": {
+	"must": [
+		{"match": {"address": "mill"}},
+		{"match": {"address": "lane"}}
+	]
+}}
+
+*** must - và, should - hoặc, must_not, 
+PUT /product?pretty --> tạo mới index có tên `product`
+PUT /product/_doc/*id*
+{ *dữ liệu dạng json*}             --> thêm một document vào index product
+
+PUT /product/_doc/*id*
+{ *dữ liệu mới* }
+
+POST /_bulk							--> thêm nhiều document
+{ *doc mới 1* }
+{ *doc mới 2* }
+
+DELETE /product?pretty --> xóa index
+DELETE /product/_doc/*id*
+#
+- index: có vai trò như một bảng trong rdbms
+- document là một đối tượng json: có vai trò như một hàng (index chứa nhiều document)
+
