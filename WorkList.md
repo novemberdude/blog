@@ -1,3 +1,88 @@
+# Tue, 22/12/2020
++ **LỖI THƯ VIỆN cx_Oracle**: tải thư viện, extract, install libaio1, thêm environ ở edit configuration của pycharm (pycharm không đọc biến môi trường ở file ~ /.bashrc): https://gist.github.com/kimus/10012910
++ codementor.io
++ kiểu dữ liệu ngày tháng trong oracle: datetime (YYYY-MON-DD HH24:MI), timestamp (YYYY-MM-DD HH24:MI:SS.FF)
++ Async IO in Python: A Complete Walkthrough: https://realpython.com/async-io-python/
++ login use cookie
+
+# Mon, 21/12/2020
++ Can't block by MAC address because MAC address (Media Access Control) is not included in HTTP headers: https://security.stackexchange.com/questions/1118/can-i-block-based-on-mac-address#:~:text=5%20Answers&text=In%20short%2C%20the%20answer%20is,could%2C%20it%20would%20be%20useless.&text=As%20you%20can%20see%2C%20the,which%20router%20it%20came%20from.
++ how to block an ip from accessing your service: https://mediatemple.net/community/products/dv/204405044/block-a-specific-ip-address-from-accessing-your-website
++ 10 tips to void getting blocked when scraping websites. https://www.codementor.io/@scrapingdog/10-tips-to-avoid-getting-blocked-while-scraping-websites-16papipe62
+	--> you must have a pool of at least 10 IPs before making an HTTP request. To avoid getting blocked you can use proxy rotating services like Scrapingdog or any other Proxy services.
++ https://blog.iconosquare.com/best-time-to-post-on-tiktok/
+
+
+
+----------------------------------------
+# Fri, 18/12/2020
++ Headless browser: Trình duyệt không có đầu là trình duyệt web không có giao diện người dùng đồ họa. Các trình duyệt không có đầu cung cấp khả năng kiểm soát tự động một trang web trong môi trường tương tự như các trình duyệt web phổ biến, nhưng chúng được thực thi thông qua giao diện dòng lệnh hoặc sử dụng giao tiếp mạng.
++ token vs cookie: https://dzone.com/articles/cookies-vs-tokens-the-definitive-guide
++ JWTs: JSON Web Tokens
++ cookie của chrome lưu trong sqllite3 database ở thư mục `~/.config/google-chrome/default.`
++ transfering cookie: https://superuser.com/questions/186609/how-do-i-transfer-copy-cookies-from-one-browser-to-another-or-same-browser-fro?rq=1
++ `getopt` python package: The getopt module is the old-school command line option parser that supports the conventions established by the Unix function getopt(). It parses an argument sequence, such as sys. argv and returns a sequence of (option, argument) pairs and a sequence of non-option arguments
++ `async` keyword in python: https://realpython.com/async-io-python/
++ Concurrency is a slightly broader term than parallelism. It suggests that multiple tasks have the ability to run in an overlapping manner. (There’s a saying that concurrency does not imply parallelism.)
+
+
+# Thus, 17/12/2020
++ Create an icon for .sh file https://www.youtube.com/watch?v=daadsaHhXB8
++ pycharm warnings "method maybe static"
++ @staticmethod decorator in python ???
++ Cronjob là các lệnh thực thi hành động đặt trước vào thời điểm nhất định. Crontab là nơi lưu trữ các cronjob. Cron là một tiện ích giúp lập lịch chạy những dòng lệnh bên phía server để thực thi một hoặc nhiều công việc nào đó theo thời gian được lập sẵn. Một số người gọi những công việc đó là Cron job hoặc Cron task.Cron là một chương trình deamon, tức là nó được chạy ngầm mãi mãi một khi nó được khởi động lên. Như các deamon khác thì bạn cần khởi động lại nó nếu như có thay đổi thiết lập gì đó. Chương trình này nhìn vào file thiết lập có tên là crontab để thực thi những task được mô tả ở bên trong. https://vinahost.vn/crontab-linux-la-gi
++ `config` python package
++ https://viblo.asia/p/nhung-thu-ban-nen-biet-ve-http-gGJ59eJa5X2 Công nghệ cốt lõi là HTTP - Hypertext Transfer Protocol. Nó là phương thức giao tiếp bạn sử dụng khi bạn lướt web.
++ https://quantrimang.com/cac-truong-header-trong-http-156082
++ https://breadcrumbscollector.tech/stop-naming-your-python-modules-utils/ Stop naming your python modules “utils”, Synonyms of utils, like helpers, commons, etc. are bad for the same reason.
++ from ..monitor.monitor import alert
++ import sys, sys.version
++ import glob: The glob module finds all the pathnames matching a specified pattern according to the rules used by the Unix shell, although results are returned in arbitrary order
++ chứng chỉ oracle OCA, OCB.
+
+
+# Wed, 16/12/2020
++ fb crawl: crawl ntn, theo user? theo location? mỗi user có crawl bài đăng của bạn bè không, có crawl bài đăng của bạn bè của bạn bè không (recursive?)
++ tiktok-api python package by davidteather (github): --> crawl dữ liệu khá đầy đủ, tuy nhiên cần tìm hiểu kĩ công nghệ 
++ medium.com là gì? là một blog cộng đồng, một nền tảng lớn và đáng tin cậy, chất lượng, không hoàn toàn miễn phí (sau khi đọc nhiêu bài được đánh giá cao, nếu muốn đọc tiếp thì phải đăng ký gói tháng, nếu không muốn thì đăng xuất tài khoản ra, đăng kí với tài khoản với :d hoặc dùng extension): 
+	https://sharengay.commeo-doc-medium-com-free-khi-bi-yeu-cau-dang-ky-membership/
++ WebDriver là một công cụ mã nguồn mở trong mảng test tự động, cho phép các ứng dụng web của chúng ta có thể hoạt động trên các trình duyệt. Nó cung cấp các chức năng giúp chúng ta đi đến các địa chỉ web, nhập dữ liệu đầu vào, xử lý các code JavaScript, và rất nhiều các thao tác mà người dùng họ có thể tác động khác nữa. Và ChromeDriver là chính là công cụ giúp WebDriver thực hiện các công việc đó trên trình duyệt Chrome. https://vananhtooo.wordpress.com/2017/10/05/selenium-khoi-dong-trinh-duyet-chrome-voi-chromedriver/ 
++ ??? tại sao dùng selenium để crawl fb mà không dùng scrapy
++ code android: Java là ngôn ngữ chính thức để phát triển Android. Đây là ngôn ngữ có sự hỗ trợ nhiều nhất từ ​​Google
++ Selenium Webdriver (Se driver) là một tool open source giúp việc thực thi các hành động lên trang web một cách tự động, tất nhiên là tùy vào mục đích và yêu cầu của người viết. 
++ Even though Scapy is a powerfl web scraping framework, i becomes useless with these dynamic websites.
++ Yandex là một công ty web của Nga với hơn 60% người dùng web ở Nga sử dụng. Yandex là công ty tìm kiếm lớn thứ 4 trên thế giới với hơn 150 triệu lượt tìm kiếm mỗi ngày và khoảng 50 triệu người dùng thường xuyên
++ Search Engine Optimization - Tối ưu hóa công cụ tìm kiếm (SEO) là quá trình tăng chất lượng và lưu lượng truy cập website bằng cách tăng khả năng hiển thị của website hoặc webpage [1] cho người dùng trên các máy truy tìm dữ liệu như Google, Bing, Yahoo
++ What will happen if I don't follow robots.txt while crawling? https://softwareengineering.stackexchange.com/questions/180108/what-will-happen-if-i-dont-follow-robots-txt-while-crawling#:~:text=The%20Robot%20Exclusion%20Standard%20is,you%20choose%20to%20ignore%20it.
++ Playwright is a Python library to automate Chromium, Firefox and WebKit browsers with a single API. Playwright delivers automation that is ever-green, capable, reliable and fast
++ proxy in TikTokApi
++ freecodecamp.org
++ cần xem hình dáng cookie như thế nào?
++ datatype clob in oracle: Stands for "Character Large Object." A CLOB is a data type used by various database management systems, including Oracle and DB2. It stores large amounts of character data, up to 4 GB in size.
+
+
+
+# Tue, 15/12/2020
++ proxy
++ MIT licience
++ selenium vs scrapy
++ Captcha: Completely Automated Public Turing test to tell Computers and Humans Apart
++ $HOME/.cache folder: có thể xóa, ứng dụng cần thì sẽ tạo lại. --> khi pip install package trong venv, package sẽ lấy từ $HOME/.cache, nếu không sẽ install vào .cache rồi copy vào venv https://askubuntu.com/questions/102046/is-it-okay-to-delete-the-cache-folder
++ userAgent:  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/86.0.4240.111 Safari/537.36"
+    --> Trong máy tính, user agent là phần mềm hoạt động thay mặt cho người dùng. Một sử dụng phổ thông của từ này đề cập đến một trình duyệt web cho một trang web biết thông tin về trình duyệt và hệ điều hành
++ https://www.whatismybrowser.com/, https://blog.cloud365.vn/linux/tong-quan-ve-user-agent/
+Tới thời điểm hiện tại, các trình duyệt đều phát triển để giống một trình duyệt khác (Mozilla), dần dần chuỗi User Agent trở nên lộn xộn gây khó hiểu nhầm lẫn
++ cookie: Cookie đơn giản chỉ là một đoạn văn bản ghi thông tin được tạo ra và lưu trên trình duyệt của máy người dùng, https://nguyenthanhthuong.com/huong-dan-su-dung-cookies/
++ j2team cookie: https://www.junookyo.com/2017/07/j2team-cookies-chrome-extension.html?utm_source=extension&utm_medium=j2team_cookies: chia sẻ tài khoản mà không sợ lộ mật khẩu
++ https://medium.com/@david.teather
++ put an open source python package to PyPi: https://realpython.com/pypi-publish-python-package/
+
+
+
+
+
 # Mon, 14/12/2020
 + random.sample(population, k) ->Return a k length list of unique elements chosen from the population sequence or set. Used for random sampling without replacement.
 + `re` package in python --> re — Regular expression operations
@@ -9,7 +94,11 @@
 + Vụ bê bối dữ liệu Facebook–Cambridge Analytica -  87 triệu người sử dụng Facebook
 + titok api
 + seminar
-+ sdk vs api
++ sdk vs api https://rapidapi.com/blog/api-vs-sdk/
++ ffmpeg: là một dự án phần mềm mã nguồn mở và miễn phí, bao gồm một bộ thư viện lớn và chương trình để xử lý video, âm thanh cũng như các tệp và luồng đa phương tiện (à một phần mềm xử lý audio, video đơn giản, miễn phí và hiệu quả.) -  Fast Forward MPEG (Motion Picture Experts Group)
++ ??? cookies trong crawl fb là gì
++ import sys/ sys.argv[0] là file python: --> sys.argv là môt danh sách [list] trong python, nó được sư dụng khi bạn chạy một lệnh command-line nào đó trên hệ thống. Và argument này được đẩy vào script python để thực thi khi chạy câu lệnh.
+
 
 # Fri, 11/12/2020
 + python format string: https://realpython.com/python-f-strings/
