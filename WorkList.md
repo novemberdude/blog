@@ -1,7 +1,41 @@
+# Thu, 21/01/2021
++ https://stackoverflow.com/questions/2483140/oracle-how-to-group-by-over-a-range
++ pivot in oracle: convert rows to columns: http://oracletechtalk.blogspot.com/2015/09/pivot-va-unpivot-phan-1.html
++ select count(case Position when 'Manager' then 1 else null end)
+from ...
+
+# Wed, 20/01/2021
++ sysdate - 7, vd: now: 09:58 Thg 1 20, --> result: 00:00 Thg 1 13
+
+
+# Mon, 18/01/2021
++ Data Driven business: Doanh nghiệp vận hành dựa trên dữ liệu.
++ OKR: Objective Key Result-OKR: Quản trị theo Mục tiêu và Kết quả Then chốt.
+
+----------------------------------------------------------------------------------------------
+
+# Thu, 14/01/2021
++ python regex: https://www.w3schools.com/python/python_regex.asp
++ forgot ubuntu's password: https://itsfoss.com/how-to-hack-ubuntu-password/
++ palindrome: text[::-1]
++ \n: newline, \r: carriage return
+
+# Wed, 13/01/2021
+
++ ffmpeg -i "huyenic.mp3" -af silencedetect=noise=-30dB:d=0.5 -f null - 2> hehe.txt
+
++ ffmfpeg ffmpeg -ss 163.766 -to 165.567 -i  loihiic.mp3    hiic/loihiic27.mp3
+
+
+# Mon, 11/01/2021
++ inspect chrome android in pc: https://stackoverflow.com/questions/37256331/is-it-possible-to-open-developer-tools-console-in-chrome-on-android-phone
+
+
+-----------------------------------------------------------------------------------------------
 # Fri, 08/01/2021
 + with open('../../keywords_for_searching_hashtags', 'r') as file:
     records = file.read().split('\n')
-
++ reorder columns in oracle: set invisible -> set visible
 
 # Thu, 07/01/2021
 + buit-in magic command in Python
