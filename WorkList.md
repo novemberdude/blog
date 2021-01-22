@@ -1,3 +1,88 @@
+# Fri, 08/01/2021
++ with open('../../keywords_for_searching_hashtags', 'r') as file:
+    records = file.read().split('\n')
+
+
+# Thu, 07/01/2021
++ buit-in magic command in Python
++ magic command (%) có thể chạy trên jupyter notebook hoặc pycharm trong python console with conda.
+	-> python console không phải là Ipython
++ truncate vs delete, khi truncate với bảng có key được tham chiếu từ bảng khác thì có thể dùng tạm delete.
+
+# Wed, 06/01/2021
++ Oracle: chỉ thay đổi được thứ tự cột trong bảng khi tạo bảng, sau khi tạo thì không sửa được (đây là một cách để bảo vệ sự không thống nhất giữa các phiên bản)
++ Sau khi commit() là không rollback được, vậy rollback thực sự làm gì?
++ sử dụng executemany() khi fail một bản ghi thì sẽ fail toàn bộ batch
++ Oracle: sysdate=26-DEC-20
++ why alias of context manage can still be refered outside with scope
+
+
+# Tue, 05/01/2021
++ cur.execute(statement,(*tuple*)) / cur.executemany(statement, [(*tuple*)])
++ When you make execute Data Manipulation Language or DML statements, such as the insert I use in this post, those changes are only visible to your current connection or session. https://learncodeshare.net/2015/06/26/insert-crud-using-cx_oracle/
+
+# Mon, 04/01/2021
++ Should I use additional column for key instead of multiple column? https://stackoverflow.com/questions/2204381/what-are-the-pros-and-cons-of-using-multi-column-primary-keys
++ Oracle don't have boolean data type, use NUMBER(1,0) instead.
++ varchar vs varchar2 in oracle: https://stackoverflow.com/questions/1171196/what-is-the-difference-between-varchar-and-varchar2-in-oracle
++ char vs varchar: VARCHAR is variable-length, CHAR is fixed length: https://www.databasestar.com/char-varchar-varchar2/
++ You should see the max length provided for a VARCHAR column as a kind of constraint (or business rule) rather than a technical/physical thing. https://stackoverflow.com/questions/8295131/best-practices-for-sql-varchar-column-length
++ SMALLINT is NUMBER(38): Note that INT, SMALLINT, NUMERIC, and DECIMAL are just aliases. They are not the real data types. Internally, Oracle maps these aliases to the corresponding NUMBER data type.
+
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+
+# Thu, 31/12/2020
++ sql naming convention: https://www.sqlshack.com/learn-sql-naming-conventions/
+
+# Wed, 30/12/2020
++ SplashRequest return response.data['html'] không có gì khi không có js, không giống vnexpress trả về html có sẵn dữ liệu.
++ localhost:8050 --> không dùng được(https://stackoverflow.com/questions/58556759/how-to-enable-javascript-in-splash) --> bỏ dùng thử selenium xem sao
++ XHR in Network tab (F12): XMLHttpRequest: https://completejavascript.com/xmlhttprequest-tao-http-request-den-server-trong-javascript
+
+# Tue, 29/12/2020
++ requests.get('tiktok.com') -> response.text = ''
+
+# Mon, 28/12/2020
++ loc, iloc in pandas: loc is label-based, which means that we have to specify the name of the rows and columns that we need to filter out/ On the other hand, iloc is integer index-based. So here, we have to specify rows and columns by their integer index
+	data.loc[data.age >= 15]
+	data.loc[(data.age >= 12) & (data.gender == 'M')]
+	data.loc[1:3]
+	data.loc[(data.age >= 12), ['city', 'gender']]
+	data.loc[(data.age >= 12), ['section']] = 'M'
+	data.loc[(data.age >= 20), ['section', 'city']] = ['S','Pune']
+	data.iloc[[0,2]]
++ scrapy shell 'https://...'
+
+
+
+--------------------------------------------------------------------------
+# Fri, 25/12/2020
++ Indent, Unindent in sublime text: Ctrl+[/]
++ clean code - Robert Martin
++ https://moderatemisbehaviour.github.io/clean-code-smells-and-heuristics/
++ sphinx
++ https://kipalog.com/posts/Cach-tao-project-documentation-cho-codebase-Python-dung-Sphinx
+
+
+# Thu, 24/12/2020
++ "If it isn't automated...it's broken", "If it isn't tested...it's broken": https://learn.datacamp.com/courses/command-line-automation-in-python
++ Concurency and Parallelism are not the same.
++ logging in python: https://realpython.com/python-logging/
++ https://realpython.com/python-pep8/
+
+# Wed, 23/12/2020
++ file requirements.txt in a python project: package_name==version
++ Do datascientists use object oriented programming: https://www.quora.com/Do-data-scientists-use-object-oriented-programming
++ ??? Khi nào thì dùng database connection pools.
++ có thể copy thủ công cookie của 1 website từ browser này sang browser khác.
++ what is UTF-8? https://vi.wikipedia.org/wiki/UTF-8 8-bit Unicode Transformation Format - Định dạng chuyển đổi Unicode 8-bit --> có khả năng tương thích ngược với ASCII nên rất phổ biến.
++ req.headers['Content-Type'] https://code.tutsplus.com/vi/tutorials/using-the-requests-module-in-python--cms-28204, https://stackoverflow.com/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header
++ pixabay.com
+
 # Tue, 22/12/2020
 + **LỖI THƯ VIỆN cx_Oracle**: tải thư viện, extract, install libaio1, thêm environ ở edit configuration của pycharm (pycharm không đọc biến môi trường ở file ~ /.bashrc): https://gist.github.com/kimus/10012910
 + codementor.io
