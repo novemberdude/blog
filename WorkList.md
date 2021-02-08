@@ -1,8 +1,22 @@
+# Fri, 22/01/2021
++ from functools import paritial: https://www.geeksforgeeks.org/partial-functions-python/
++ with trong https://vietjack.com/sql/menh_de_with_trong_sql.jsp
+
 # Thu, 21/01/2021
 + https://stackoverflow.com/questions/2483140/oracle-how-to-group-by-over-a-range
 + pivot in oracle: convert rows to columns: http://oracletechtalk.blogspot.com/2015/09/pivot-va-unpivot-phan-1.html
 + select count(case Position when 'Manager' then 1 else null end)
 from ...
++ retry using decorator: https://towardsdatascience.com/are-you-using-python-with-apis-learn-how-to-use-a-retry-decorator-27b6734c3e6
++ decorator:
+	`def convert_to_numeric(func):
+    # define a function within the outer function
+    def new_func(x):
+        return func(float(x))
+    # return the newly defined function
+    return new_func`
+    `new_fist_func = convert_to_numeric(first_func)`
+    `new_fist_func('2')`
 
 # Wed, 20/01/2021
 + sysdate - 7, vd: now: 09:58 Thg 1 20, --> result: 00:00 Thg 1 13
