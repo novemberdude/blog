@@ -1,6 +1,36 @@
+# Thu, 18/01/21
+- import openvpn file in ubuntu: install openvpn, import file
+- git log in pycharm: https://www.jetbrains.com/help/pycharm/log-tab.html#BranchesPane
+
+# Wed, 17/01/21
+- cuurrent datetime ubuntu: https://www.programiz.com/python-programming/datetime/current-datetime
+
+
+------------------------------------
+# Wed, 03/01/2021
++ Ubuntu on Windows
+-------------------------------
+
+# Thu, 28/01/2021
++ selenium driver.implicitly_wait() vs time.sleep() https://stackoverflow.com/questions/53588966/python-selenium-difference-between-driver-implicitly-wait-and-time-sleep
+
+
+# Wed, 27/01/2021
++ create my first python lib: https://medium0.com/analytics-vidhya/how-to-create-a-python-library-7d5aea80cc3f
+
+# Tue, 26/01/2021
++ Dockerfile https://cuongquach.com/tim-hieu-dockerfile-build-docker-image.html
++ ` 
+	docker build . -t baomoi`
++ negative look behind: regex https://viblo.asia/p/phan-tich-mot-so-doan-regex-thuong-gap-va-cu-phap-regex-dac-biet-bJzKmLmE59N
+https://quantrimang.com/regex-trong-python-165471 https://freetuts.net/negative-va-positive-lookbehind-trong-regular-expression-72.html
+
+
+---------------------------------------------------------------------------------------
 # Fri, 22/01/2021
 + from functools import paritial: https://www.geeksforgeeks.org/partial-functions-python/
-+ with trong https://vietjack.com/sql/menh_de_with_trong_sql.jsp
++ with trong https://vietjack.com/sql/menh_de_with_trong_sql.jsp: Mệnh đề WITH được sử dụng để cung cấp một khối truy vấn con mà có thể được tham chiếu trong một số vị trí bên trong truy vấn chính. Nó được giới thiệu bởi Oracle.
++ split date to interval time: https://stackoverflow.com/questions/50981401/generate-rows-with-time-intervals-between-2-dates-in-oracle
 
 # Thu, 21/01/2021
 + https://stackoverflow.com/questions/2483140/oracle-how-to-group-by-over-a-range
