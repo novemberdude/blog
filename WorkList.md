@@ -1,3 +1,34 @@
+# Fri, 05/03/21:
+- htop: Lệnh htop trong Linux là một tiện ích dòng lệnh cho phép người dùng theo dõi các tiến trình hệ thống quan trọng trong thời gian thực.
+- https://quantrimang.com/dung-lenh-htop-theo-doi-cac-tien-trinh-he-thong-168988
+- colapse all: ctrl + k + 1
+- change pushed commit: https://linuxize.com/post/change-git-commit-message/?__cf_chl_captcha_tk__=b63468641db653f447b380f0dc3c687cc75c5a21-1614940845-0-AaZwP1ePo6-Z9clxM5nl3qYFTQyKVkU1B1vgot19V0DYwdzMs-V7S3FZeLgbEmyrN5jo6mfv94ElpWrI_AS-XWPGliGhIhrGMasAYXxlDyByTehQOj3JZOig_FVVka1inJNSIFtcmKf1_CX9Hsv9PLtKKDFUDnGY93dnMHoboufbk-_LEPBv5Twkhk86r4k1-BJpAHSTfA0bkcmYb1gXx7cvU15XeIs-273Kr_f4kQxfk4LOigwNzXMlvtgIjsAzLZNMy36dIw_yB4M8Sba61tGb9QqsWs22SZm10irTJHMWVqwhCisJP0c7GHNIwPWiMIcORE_FKtqFw2vIwzzIGIjMA3CcGT3MP7X8SEDF9wsu_sr54py2oixTx5Aefi_R63hcewS1eYnEMCy13SuKoVJrw-IaHMKnUctuJ8F-elmBuDoYF6MGYki1oyNx8VINTkoS8bM0MPdg7a0Nqz47ahI3qDbZvH7X3olKwWpHzXIMTS59gixzmEuygo3VbELrDHnzj2WNQ0WIQaRZoGgenx8Vst2lKCKGZjo4SlHcboXxE_bKlyuFVEOTSiW0hUZWnQ
+
+# Thu, 04/03/21
+-  round(num, 2): làm tròn số
+- 
+
+# Wed, 03/03/21
+- tunnel - chuyển port - connect vào port của server nếu connect được port 22: https://viblo.asia/p/ssh-tunneling-local-port-forwarding-va-remote-port-forwarding-07LKXJ3PlV4
+- set timezone ubuntu: https://linuxize.com/post/how-to-set-or-change-timezone-on-ubuntu-18-04/
+- systemctl: https://www.shubhamdipt.com/blog/how-to-create-a-systemd-service-in-linux/
+- vi /etc/netplan/50-cloud-init.yaml / netplan apply
+- pip install package --no-cache-dir
+-----------------------------------------------------
+
+# Tue, 23/02/21
+-  https://stackoverflow.com/questions/26370015/git-pre-commit-hooks-only-for-a-specific-subfolder
+
+# Mon, 22/02/21
+- isort: chuẩn hóa các dòng import, black chuẩn hóa pep8, flake8 chỉ check pep8 không sửa
+  precommit dùng kết hợp isort, black, flake8
+  pre-commit install để auto chạy lệnh pre-commit khi commit (không cần phải gõ tay)
+- undo last commit: https://stackoverflow.com/questions/10846875/move-or-undo-last-git-commit-to-unstaged-area
+
+---------------------------------------------------
+# Fri, 19/01/21
+- SQL plus
+
 # Thu, 18/01/21
 - import openvpn file in ubuntu: install openvpn, import file
 - git log in pycharm: https://www.jetbrains.com/help/pycharm/log-tab.html#BranchesPane
