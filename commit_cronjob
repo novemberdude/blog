@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git add WorkList.md
+git commit -m "commit daily"
+git push origin main
