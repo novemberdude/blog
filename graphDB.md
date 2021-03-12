@@ -34,6 +34,7 @@
 ## Tutorial:
 
 1. CRUD:
+- AQL phải RETURN một kết quả hoặc thực thi một toán tử sửa đổi dữ liệu
 - Create Documents: INSERT document INTO collectionName (document là một đối tượng JSON)
 + AQL không có chèn nhiều document một lần, phải dùng for
 + Khi tạo 1 document, được thêm 3 trường: _key, _id, _rev (system attribute  with _ is read only)
@@ -146,3 +147,29 @@ Restction ???
 # Tài liệu:
 + https://www.youtube.com/watch?v=REVkXVxvMQE
 + https://en.wikipedia.org/wiki/Graph_database#:~:text=Graph%20databases%20are%20a%20type,the%20data%20by%20implicit%20connections.
+
+# Thực hành
+
+1. Tạo 2 collection airports/ flights
+2. CRUD
+3. GeoJSON: geo_point(airport.long, airport.lat), geo_distance()
+4. join
+
+
+# Query
+
+
+## Đồ thị
+1. Duyệt cha
+FOR c IN Characters
+	FILTER c.name == "Bran"
+	FOR v in 1..1 OUTBOUND c ChildOf
+		RETURN v.name
+
+2.Duyệt con
+FOR c IN Characters
+	FILTER c.name == "Ned"
+	FOR v in 1..1 INBOUND c ChildOf
+		RETURN v.name
+
+2..2 --> duyệt cháu
